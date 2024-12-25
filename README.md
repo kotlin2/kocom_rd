@@ -3,7 +3,8 @@
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
 ## UpdateLog
-1. fan hex fix(off)
+1. 팬 : 꺼지지 않는 현상 수정
+2. 난방 : 최소온도 수정
    
 ## About
 Kocom Wallpad with RS485
