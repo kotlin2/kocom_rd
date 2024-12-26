@@ -1,13 +1,11 @@
 # Kocom Wallpad with RS485  -RD
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
+## About
+Kocom Wallpad with RS485 in RD
 
 ## Update Log
 1. 24/12/25 => 팬 : 꺼지지 않는 현상 수정
 2. 24/12/25 => 난방 : 최소온도 수정
-   
-## About
-Kocom Wallpad with RS485 in RD
 
 ## Installation
 
