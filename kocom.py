@@ -411,7 +411,7 @@ def mqtt_on_message(mqttc, obj, msg):
         q = query(dev_id)
         #settemp_hex = q['value'][4:6] if q['flag']!=False else '14'
         settemp_hex = '{0:02x}'.format(int(config.get('User', 'init_temp'))) if q['flag']!=False else '14'
-        value = heatmode_dic.get(command) + '00' + settemp_hex + '0000000000' 
+        value = heatmode_dic.get(command) + settemp_hex + '0000000000' 
         send_wait_response(dest=dev_id, value=value, log='thermo heatmode')
 
     # thermo set temp : kocom/room/thermo/3/set_temp/command
