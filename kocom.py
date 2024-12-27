@@ -405,7 +405,7 @@ def mqtt_on_message(mqttc, obj, msg):
     # thermo heat/off : kocom/room/thermo/3/heat_mode/command
     if 'thermo' in topic_d and 'heat_mode' in topic_d:
         # heatmode_dic = {'heat': '11', 'off': '01'} 
-        heatmode_dic = {'heat': '1100', 'fan_only': '1101', 'off': '0000'}
+        heatmode_dic = {'heat': '1100', 'fan_only': '1101', 'off': '0100'}
 
         dev_id = device_h_dic['thermo']+'{0:02x}'.format(int(topic_d[3]))
         q = query(dev_id)
